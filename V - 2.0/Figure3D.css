@@ -1,0 +1,31 @@
+.Figure3D-Figure {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.Figure3D-Figure .Figure3D-Figure-Main {
+    margin: auto;
+    animation: Figure3D_Animation_Rotation 86000s ease-in-out 0.5s 1;
+}
+
+.Figure3D-Figure .Figure3D-Figure-Style-Base {
+    position: absolute;
+    transform-style: preserve-3d;
+    transform-origin: 25% 25% 25%;
+}
+
+.Figure3D-Figure .Figure3D-Figure-Main .Figure3D-Figure-Main-Face {
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+}
+
+@-webkit-keyframes Figure3D_Animation_Rotation {
+    to {
+        transform: rotateX(90deg);
+    }
+}
