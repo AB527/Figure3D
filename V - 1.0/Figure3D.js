@@ -1,4 +1,4 @@
-class Figure3D {
+class Figure3D { 
 
     #data = {
         animation: "Figure3D_Animation_Rotation",
