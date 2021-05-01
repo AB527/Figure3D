@@ -4,11 +4,11 @@
 
 Create and add a 3D Figure to your project
 
-Add CSS and JS of Figure3D to your project
+Add latest version CSS and JS files of Figure3D to your project
 
 ```
-<link rel="stylesheet" href="/assests/css/Figure3D.css">
-<script src="/assests/js/Figure3D-2.js"></script>
+<link rel="stylesheet" href="http://figure3d.s3-website.us-east-2.amazonaws.com/V_2.1/Figure3D.css">
+<script src="http://figure3d.s3-website.us-east-2.amazonaws.com/V_2.1/Figure3D.js"></script>
 ```
 
 ## Version 1.0 ##
